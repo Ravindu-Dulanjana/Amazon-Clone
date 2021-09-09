@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    z-index: 1;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    color: white;
+}
+
+.header_logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header_search {
+    display: flex;
+    height: 30px;
+    flex: 1;
+    align-items: center;
+}
+
+.header_searchInput {
+    height: 30px;
+    padding: 10px;
+    width: 100%;
+    border-style: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.header_searchIcon {
+    padding: 5px;
+    height: 30px !important;
+    color: black;
+    background-color: #cd9042;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.header_optionlineOne {
+    font-size: 10px;
+}
+
+.header_optionLineTwo {
+    font-size: 13px;
+    font-weight: 800px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    color: white;
+}
+
+.header_optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header_busketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
